@@ -1,4 +1,5 @@
 #Sketch for testing Led via a button on the PiB3+
+#When the button is pressed the led will turn on
 
 import RPi.GPIO as GPIO   ## Import GPIO Library
 import time               ## Import the time library
