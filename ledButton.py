@@ -1,5 +1,6 @@
 #Sketch for testing Led via a button on the PiB3+
 #When the button is pressed the led will turn on
+#1.1.2021
 
 import RPi.GPIO as GPIO   ## Import GPIO Library
 import time               ## Import the time library
@@ -21,3 +22,4 @@ while True:                 ## Do this forever
         GPIO.output(outPin, GPIO.HIGH)
     time.sleep(0.1)           ## the delay is needed for the Raspberry Pi 3 because of its cpu speed
 GPIO.cleanup() 
+
